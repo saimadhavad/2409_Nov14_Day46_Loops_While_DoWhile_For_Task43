@@ -68,7 +68,7 @@ function Loops() {
                     for(let j=1;j<=10;j++)
                       {
                         console.log(`${i} * ${j} == ${i}${j}`);
-                        tableButtonRef.current.innerHTML = `<strong>FOR :</strong> <br/><span>a is ${i} * ${j} == ${i}${j}</span>`
+                        tableButtonRef.current.innerHTML = `<strong>TABLES :</strong> <br/><span>a is ${i} * ${j} == ${i}${j}</span>`
                       }
                   }
                 }}
@@ -97,7 +97,7 @@ function Loops() {
                   continue;
                 }
                 console.log(i);
-                breakButtonRef.current.innerHTML = `<strong>BREAK :</strong> <br/><span>a is ${i}</span>`;
+                breakButtonRef.current.innerHTML = `<strong>CONTINUE :</strong> <br/><span>a is ${i}</span>`;
               }
             }}
           >CONTINUE</button>      
